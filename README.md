@@ -19,12 +19,9 @@ the sequences using the columns of the images, which we call vertical order (V);
 
 A grayscale image in X commonly comes with a M×N pixels, in this work all raw images are 28×28 pixels. From the model’s point of view, varying the shape M × N of an image is equivalent to varying the sequences length and using the sorts of order (H, V and S) is equivalent to varying the order in each sequence. M defines the number of sequences and N defines the length of a sequence that can be got in an image. 
 
-| Shape       | Dataset1 |   |   |
-|-------------|----------|---|---|
-| MxN         | E        | E | E |
-| Order Sorts | H        | V | S |
+<img width="250" alt="image" src="https://github.com/ekchacon/Classification-under-Changes-in-Sequences-Order/assets/46211304/25c4099d-8d2a-43f1-b05d-c57468f3c6b8">
 
-An experiment E is carried on with a specific combination of M × N shape of the image and a sort order H, V or S as shown in Table 2. Each experiment yields an accuracy.
+An experiment E is carried on with a specific combination of M × N shape of the image and a sort order H, V or S as shown by the previous figure. Each experiment yields an accuracy.
 
 The M × N combinations considered in this work are as follow: (2,392), (4,196), (7,112), (8,98), (14,56), (16,49), (28,28), (49,16), (56,14), (98,8), (112,7) and (196,4). These shapes were chosen mainly because they have an integer value
 for M and N. As previously mentioned, the datasets used in this work are the well known MNIST, MNIST-C, notMNIST, FashionMNIST and Sign Language MNIST. The combinations of datasets, image shapes and order sorts yield a total of 180 experiments.
