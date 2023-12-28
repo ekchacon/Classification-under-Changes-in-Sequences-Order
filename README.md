@@ -6,7 +6,7 @@
 
 <!-- Non-scientific: We are interested in understanding if the order within the sequences, and their length, have an effect on the overall performance of the RNNs, particularly when they are based on LSTM units. This question maybe relevant for data setup procedures, and it may be useful for video tagging and for general image description. -->
 
-We aim to investigate the impact of sequence order and length on the overall performance of Recurrent Neural Networks (RNNs), especially those utilizing Long Short-Term Memory (LSTM) units. Addressing this query is pertinent for refining data setup procedures, with potential applications in video tagging and general image description. 
+We aim to investigate the impact of sequence order and length on the overall performance of Recurrent Neural Networks (RNNs), especially those utilizing Long Short-Term Memory (LSTM) units. Addressing this query is pertinent for refining data setup procedures, with potential applications in video tagging and general image description. This work is documented in the published article (Ek-Chacon, et al., [2020](https://link.springer.com/chapter/10.1007/978-3-030-60884-2_1)).
 
 # Datasets
 
